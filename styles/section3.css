@@ -1,0 +1,39 @@
+#section3 {
+  flex-direction: column;
+  background: rgb(12, 54, 63);
+  background: linear-gradient(
+    180deg,
+    rgba(12, 54, 63, 1) 0%,
+    rgba(19, 73, 93, 1) 100%
+  );
+  font-weight: 100;
+  color: #fff;
+  .title {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  .sub-title {
+    font-size: 24px;
+    margin: 30px 0;
+  }
+  .flex-container {
+    display: flex;
+    align-items: center;
+    max-width: 950px;
+    text-align: left;
+    align-items: start;
+    opacity: 0.7;
+    p {
+      margin-bottom: 20px;
+    }
+    .left-align {
+      margin-right: 20px;
+      flex: 1;
+    }
+
+    .right-align {
+      text-align: left;
+      flex: 1;
+    }
+  }
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scrolling Sections</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="top-nav">
+      <ul>
+        <li>
+          <a href="#section1"
+            ><img src="./images/play-icon.png" alt="Logo"
+          /></a>
+        </li>
+        <li><a href="#section2">Background & Challenge</a></li>
+        <li><a href="#section3">Solution</a></li>
+        <li><a href="#section4">Results & Effectiveness</a></li>
+        <li><a href="#">Slideshow</a></li>
+      </ul>
+      <button><i class="fas fa-download"></i> Download Board</button>
+    </div>
+
+    <div id="right-nav">
+      <ul>
+        <li>
+          <a href="#section1">
+            <div class="circle">
+              <div class="bullet"></div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#section2">
+            <div class="circle">
+              <div class="bullet"></div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#section3">
+            <div class="circle">
+              <div class="bullet"></div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#section4">
+            <div class="circle">
+              <div class="bullet"></div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <div class="circle">
+              <div class="bullet"></div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <div class="circle">
+              <div class="bullet"></div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <section
+      id="section1"
+      class="section"
+      style="background-image: url('./images/banner.png')"
+    >
+      <div id="videoContainer">
+        <img src="./images/logo.png" class="logo" alt="logo" />
+        <img src="./images/play-button.png" class="play-button" alt="logo" />
+      </div>
+    </section>
+
+    <section id="section2" class="section">
+      <div class="container">
+        <div class="left-container">
+          <img src="./images/logo.png" class="logo" alt="Logo" />
+        </div>
+        <div class="right-container">
+          <div class="content">
+            <div class="title">Background & Audience</div>
+            <div class="body">
+              Tourism & Events Queensland wanted to increase consideration of
+              The Whitsundays amongst social fun seekers'; digitally savvy
+              consumers that socialise substatially online.
+            </div>
+          </div>
+          <div class="content">
+            <div class="title">Problem</div>
+            <div class="body">
+              The Whitsundays was losing its cachet as an aspirational holiday
+              location.
+            </div>
+          </div>
+          <div class="content">
+            <div class="title">Objective</div>
+            <div class="body">
+              Shift perceptions and re-build the Whitsundays' social currency as
+              a world-class destination.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section3" class="section">
+      <div class="title">Solution</div>
+      <div class="flex-container">
+        <div class="left-align">
+          <p>
+            We knew movies rated high on the list of our target’s interests and,
+            with incredible beaches, seaplanes, yachts and glamorous locations,
+            the Whitsundays is the perfect setting for a movie.
+          </p>
+          <p>So we invited Australians to write it:</p>
+          <div class="sub-title">
+            The Whitsundays. <br />
+            A movie that’s waiting to be written.
+          </div>
+          <p>
+            We enlisted world-renowned screenwriter Craig Pearce as Script
+            Supervisor. Then for 20 days we posted a daily storyboard image on
+            Facebook and Instagram, inviting the public to write scenes for a
+            chance to win a $10,000 luxury holiday.
+          </p>
+        </div>
+        <div class="right-align">
+          <p>
+            The campaign launched with a trailer, radio and online advertising.
+          </p>
+          <p>
+            We reacted to the storyline as it developed, selecting and treating
+            images according to the previous winning scene.
+          </p>
+          <p>
+            Each scene written and shared became a compelling “ad” for the
+            Whitsundays.
+          </p>
+          <p>
+            Together, a Hollywood screenwriter and the Australian public had
+            created the world’s first crowd-sourced movie storyboard and a story
+            universe with millions of possible permutations.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="section4" class="section">
+      <ul class="links">
+        <li><a href="#video">Video</a></li>
+        <li><a href="#photography">Photography</a></li>
+        <li><a href="#social">Social</a></li>
+        <li><a href="#PR">PR</a></li>
+        <li><a href="#radio">Radio</a></li>
+      </ul>
+      <div class="flex-container">
+        <div class="left-align">
+          <div class="color-container"></div>
+        </div>
+        <div class="right-align">
+          <div class="body">
+            Live reads from NOVA presenters reflected the ever-evolving story of
+            Jake in real time, and encouraged people to get involved to shape
+            the story themselves.
+          </div>
+          <button>View Project</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
